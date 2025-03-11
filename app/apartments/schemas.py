@@ -17,3 +17,9 @@ class SApartments(BaseModel):
     balcony: bool
     elevator: bool
     district: str
+
+
+class SUploadResponse(BaseModel):
+    status_code: int
+    id: int
+    message: str
