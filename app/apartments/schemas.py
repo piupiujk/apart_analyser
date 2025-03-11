@@ -12,14 +12,13 @@ class SApartments(BaseModel):
     area: float
     floor: int
     type: int
-    parking: bool
+    parking: bool | None
     repair: int
     balcony: bool
-    elevator: bool
     district: str
 
 
-class SUploadResponse(BaseModel):
+class SUploadDeleteResponse(BaseModel):
     status_code: int
     id: int
     message: str

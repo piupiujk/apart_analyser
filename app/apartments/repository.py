@@ -15,10 +15,19 @@ class ApartmentRepository:
             session.add(new_apartment)
             await session.commit()
             await session.refresh(new_apartment)
+            return new_apartment
+
+    @classmethod
+    async def delete_apartment(cls, apartment_id):
+        async with async_session() as session:
+            query = delete(Apartments).where(Apartments.id == apartment_id)
+            await session.execute(query)
+            await session.commit()
 
     @classmethod
     async def get_apartment(cls, apart_id: int):
         async with async_session() as session:
             query = select(Apartments).where(Apartments.id == apart_id)
-            result = await session.execute(query).scalar()
-            return result
+            result = await session.execute(query)
+            apartment = result.scalar()
+            return apartment
