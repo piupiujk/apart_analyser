@@ -11,9 +11,9 @@ class SApartments(BaseModel):
     room: int
     area: float
     floor: int
-    type: int
+    type: str
     parking: bool | None
-    repair: int
+    repair: str
     balcony: bool
     district: str
 
