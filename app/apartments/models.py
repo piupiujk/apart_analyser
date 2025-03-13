@@ -12,7 +12,7 @@ class Apartments(Base):
     price: Mapped[float]
     price_meters: Mapped[float]
     new: Mapped[bool]
-    year: Mapped[int]
+    year: Mapped[int | None]
     room: Mapped[int]
     area: Mapped[float]
     floor: Mapped[int]

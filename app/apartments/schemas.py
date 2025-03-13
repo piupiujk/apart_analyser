@@ -7,7 +7,7 @@ class SApartments(BaseModel):
     price: float
     price_meters: float
     new: bool
-    year: int
+    year: int | None
     room: int
     area: float
     floor: int

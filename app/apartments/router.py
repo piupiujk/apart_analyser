@@ -1,5 +1,5 @@
 from http import HTTPStatus
-from typing import Optional
+from typing import Optional, List
 
 from fastapi import APIRouter, Query
 
@@ -67,7 +67,8 @@ async def delete_apart(apart_id: int):
 
 @router.get('/get_apart',
             summary='Получить квартиры по фильтрам',
-            description='<h1>Данный метод возвращает квартиры, которые подходят по фильтрам<h1>')
+            description='<h1>Данный метод возвращает квартиры, которые подходят по фильтрам<h1>',
+            response_model=list[SApartments])
 async def get_apart(
         price_from: Optional[float] = Query(0, ge=0, le=50000000),
         price_to: Optional[float] = Query(50000000, ge=0, le=50000000),
@@ -90,6 +91,7 @@ async def get_apart(
     apartment = await ApartmentRepository.get_apartment_with_filter(price_from, price_to, price_meters_from,
                                                                     price_meters_to, new, year_from, year_to,
                                                                     room_from, room_to, area_from, area_to,
-                                                                    floor_from, floor_to, type, parking, repair, balcony)
+                                                                    floor_from, floor_to, type, parking, repair,
+                                                                    balcony)
 
     return apartment
