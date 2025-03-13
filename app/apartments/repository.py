@@ -56,10 +56,15 @@ class ApartmentRepository:
             query = select(Apartments)
             query = query.where(Apartments.price.between(price_from, price_to))
             query = query.where(Apartments.price_meters.between(price_meters_from, price_meters_to))
-            query = query.where(Apartments.year.between(year_from, year_to))
             query = query.where(Apartments.room.between(room_from, room_to))
             query = query.where(Apartments.area.between(area_from, area_to))
             query = query.where(Apartments.floor.between(floor_from, floor_to))
+
+            if year_from is not None:
+                query = query.where(Apartments.year >= year_from)
+
+            if year_to is not None:
+                query = query.where(Apartments.year <= year_to)
 
             if new is not None:
                 query = query.where(Apartments.new == new)
