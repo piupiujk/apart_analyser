@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres:17
+    container_name: apart_db
+    env_file:
+      - .env
+    ports:
+      - 5432:5432
+
+
+  document:
+    image: apart_image
+    build:
+      context: .
+    container_name: apart_app
+    env_file:
+      - .env
+    depends_on:
+      - db
+    command: ["uvicorn", "app.main:app", "--reload"]
+    ports:
+      - 7777:8000
+
