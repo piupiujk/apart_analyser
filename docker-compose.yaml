@@ -19,5 +19,5 @@ services:
       - db
     command: ["uvicorn", "app.main:app", "--reload"]
     ports:
-      - 7777:8000
+      - 8000:8000
 

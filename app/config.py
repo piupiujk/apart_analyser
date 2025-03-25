@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -11,7 +12,9 @@ class Settings(BaseSettings):
     DB_NAME: str
 
     model_config = SettingsConfigDict(
-        env_file=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env")
+        env_file=Path(__file__).parent.parent / ".env",
+        env_file_encoding='utf-8',
+        extra='ignore'  # Игнорировать лишние переменные без ошибок
     )
 
 
