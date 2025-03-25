@@ -1,6 +1,5 @@
 FROM python:3.10
 
-
 RUN mkdir /apart_analyser
 
 WORKDIR /apart_analyser
