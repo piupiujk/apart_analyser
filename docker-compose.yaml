@@ -17,7 +17,7 @@ services:
       - .env
     depends_on:
       - db
-    command: ["uvicorn", "app.main:app", "--reload"]
+    command: ['/apart_analyser/docker/app.sh']
     ports:
       - 8000:8000
 
