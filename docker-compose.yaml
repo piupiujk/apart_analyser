@@ -19,5 +19,4 @@ services:
       - db
     command: ['/apart_analyser/docker/app.sh']
     ports:
-      - 80:80
-
+      - "127.0.0.1:8000:8000"
