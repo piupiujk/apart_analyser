@@ -27,3 +27,21 @@ async def login_user(response: Response, user_data: SUserRegister):
     access_token = create_access_token({'sub': user.id})
     response.set_cookie('apartment_access_token', access_token, httponly=True)
     return access_token
+
+
+@router.get('/check_tg_id')
+async def check_tg_id(tg_id: int):
+    existing_user = await UserRepository.find_by_tg_id(tg_id=tg_id)
+    if not existing_user:
+        return False
+    return True
+
+# @router.post('/add_tg_id')
+# async def add_tg_id(email: str, tg_id: str):
+#     existing_user = await UserRepository.find_one_or_none(email=email)
+#     if not existing_user:
+#         raise HTTPException()
+#     if existing_user.tg_id:
+#         raise HTTPException()
+#     existing_user.tg_id = tg_id
+#     return 'Добавлено'

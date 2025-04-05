@@ -15,6 +15,13 @@ class UserRepository:
             return result.scalar_one_or_none()
 
     @classmethod
+    async def find_by_tg_id(cls, tg_id: int):
+        async with async_session() as session:
+            query = select(Users).filter_by(tg_id=tg_id)
+            result = await session.execute(query)
+            return result.scalar_one_or_none()
+
+    @classmethod
     async def add_user(cls, email: EmailStr, password: str):
         async with async_session() as session:
             query = insert(Users).values(email=email, password=password)
