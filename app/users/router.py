@@ -29,8 +29,8 @@ async def login_user(response: Response, user_data: SUserRegister):
     return access_token
 
 
-@router.get('/check_tg_id')
-async def check_tg_id(tg_id: int):
+@router.get('/is_user_exists')
+async def is_user_exists(tg_id: int):
     existing_user = await UserRepository.find_by_tg_id(tg_id=tg_id)
     return {"result": existing_user is not None}
 
