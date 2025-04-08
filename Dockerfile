@@ -10,6 +10,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN chmod a+x /apart_analyser/docker/app.sh
+RUN chmod a+x /docker/app.sh
 
 CMD ["uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "80"]
