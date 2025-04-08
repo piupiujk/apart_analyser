@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9bd5c02-0f01-4697-a935-e3dbea89204f" name="Changes" comment="docker9" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;piupiujk&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/piupiujk/apart_analyser.git&quot;,
+    &quot;accountId&quot;: &quot;17e062a3-0d7c-45af-83cb-aa038991f06f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2uAWwSvYpEeJ1dPnTIQyBPD24Zx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CYBER ARTEL\Desktop\python\apart_analyser" />
+      <recent name="C:\Users\CYBER ARTEL\Desktop\python\apart_analyser\app" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\CYBER ARTEL\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9bd5c02-0f01-4697-a935-e3dbea89204f" name="Changes" comment="" />
+      <created>1741692097260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741692097260</updated>
+      <workItem from="1741692099428" duration="7529000" />
+      <workItem from="1741770460654" duration="26000" />
+      <workItem from="1741772429766" duration="9809000" />
+      <workItem from="1741854395859" duration="4773000" />
+      <workItem from="1741859345755" duration="748000" />
+      <workItem from="1741888184838" duration="3000" />
+      <workItem from="1742643394111" duration="6818000" />
+      <workItem from="1742713805231" duration="1492000" />
+      <workItem from="1742824383470" duration="2673000" />
+      <workItem from="1742834144702" duration="5000" />
+      <workItem from="1742835685594" duration="1975000" />
+      <workItem from="1742912673225" duration="8800000" />
+      <workItem from="1742924574306" duration="1056000" />
+      <workItem from="1742933703850" duration="3000" />
+      <workItem from="1742968074301" duration="5562000" />
+      <workItem from="1743006847631" duration="1100000" />
+      <workItem from="1743170465459" duration="4000" />
+      <workItem from="1743431959249" duration="205000" />
+      <workItem from="1744123860130" duration="87000" />
+      <workItem from="1744123954592" duration="338000" />
+    </task>
+    <task id="LOCAL-00001" summary="Сделал модели, прогнал миграции, начал делать роутеры">
+      <option name="closed" value="true" />
+      <created>1741697869611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741697869611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Начал делать работу с бд, надо пофиксить">
+      <option name="closed" value="true" />
+      <created>1741700034314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741700034314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавил поиск квартир по фильтру&#10;Надо сделать схемы ответа">
+      <option name="closed" value="true" />
+      <created>1741780587820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741780587820</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Сделал регистрацию и вход&#10;Добавил таблицу users в бд&#10;Изменил фильтрацию по годам">
+      <option name="closed" value="true" />
+      <created>1741859408334</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741859408334</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавил requirements.txt">
+      <option name="closed" value="true" />
+      <created>1741868048358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741868048358</updated>
+    </task>
+    <task id="LOCAL-00006" summary="more">
+      <option name="closed" value="true" />
+      <created>1742914370174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742914370174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docker">
+      <option name="closed" value="true" />
+      <created>1742914917255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742914917255</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docker1">
+      <option name="closed" value="true" />
+      <created>1742915039534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742915039534</updated>
+    </task>
+    <task id="LOCAL-00009" summary="docker2">
+      <option name="closed" value="true" />
+      <created>1742915452359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742915452359</updated>
+    </task>
+    <task id="LOCAL-00010" summary="docker3">
+      <option name="closed" value="true" />
+      <created>1742915664788</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742915664788</updated>
+    </task>
+    <task id="LOCAL-00011" summary="docker4">
+      <option name="closed" value="true" />
+      <created>1742915715435</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742915715435</updated>
+    </task>
+    <task id="LOCAL-00012" summary="docker5">
+      <option name="closed" value="true" />
+      <created>1742916221646</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1742916221647</updated>
+    </task>
+    <task id="LOCAL-00013" summary="docker6">
+      <option name="closed" value="true" />
+      <created>1742916314916</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742916314916</updated>
+    </task>
+    <task id="LOCAL-00014" summary="docker7">
+      <option name="closed" value="true" />
+      <created>1742916552361</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1742916552361</updated>
+    </task>
+    <task id="LOCAL-00015" summary="docker8">
+      <option name="closed" value="true" />
+      <created>1742919538442</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1742919538442</updated>
+    </task>
+    <task id="LOCAL-00016" summary="docker9">
+      <option name="closed" value="true" />
+      <created>1742970567430</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1742970567430</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Сделал модели, прогнал миграции, начал делать роутеры" />
+    <MESSAGE value="Начал делать работу с бд, надо пофиксить" />
+    <MESSAGE value="Добавил поиск квартир по фильтру&#10;Надо сделать схемы ответа" />
+    <MESSAGE value="Сделал регистрацию и вход&#10;Добавил таблицу users в бд&#10;Изменил фильтрацию по годам" />
+    <MESSAGE value="добавил requirements.txt" />
+    <MESSAGE value="more" />
+    <MESSAGE value="docker" />
+    <MESSAGE value="docker1" />
+    <MESSAGE value="docker2" />
+    <MESSAGE value="docker3" />
+    <MESSAGE value="docker4" />
+    <MESSAGE value="docker5" />
+    <MESSAGE value="docker6" />
+    <MESSAGE value="docker7" />
+    <MESSAGE value="docker8" />
+    <MESSAGE value="docker9" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker9" />
+  </component>
+</project>

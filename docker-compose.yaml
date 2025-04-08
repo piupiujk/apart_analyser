@@ -6,6 +6,8 @@ services:
       - .env
     ports:
       - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
 
   document:
@@ -25,4 +27,7 @@ networks:
   default:  
     driver: bridge  
     driver_opts:  
-      com.docker.network.driver.mtu: 1450  
+      com.docker.network.driver.mtu: 1450
+
+volumes:
+  fastapi_postgres_data:
