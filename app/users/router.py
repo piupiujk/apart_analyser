@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, status, Response
+from fastapi import APIRouter, HTTPException, status, Response, Query
 
 from app.users.auth import get_password_hash, verify_password, authenticate_user, create_access_token
 from app.users.repository import UserRepository
@@ -14,10 +14,18 @@ auth_router = APIRouter(
 )
 router.include_router(auth_router)
 
-
 @router.get('/is_user_exists')
-async def is_user_exists(tg_id: int):
-    existing_user = await UserRepository.find_by_tg_id(tg_id=tg_id)
+async def is_user_exists(
+        tg_id: int | None = Query(None, description="Telegram ID пользователя"),
+        email: str | None = Query(None, description="Email пользователя")
+):
+    if tg_id:
+        existing_user = await UserRepository.find_by_tg_id(tg_id)
+    elif email:
+        existing_user = await UserRepository.find_by_email(email)
+    else:
+        return {"error": "Укажите tg_id или email"}
+
     return {"result": existing_user is not None}
 
 @auth_router.post('/register')
