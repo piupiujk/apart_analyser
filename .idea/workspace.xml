@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9bd5c02-0f01-4697-a935-e3dbea89204f" name="Changes" comment="docker9" />
+    <list default="true" id="e9bd5c02-0f01-4697-a935-e3dbea89204f" name="Changes" comment="docker9">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +107,7 @@
       <workItem from="1743170465459" duration="4000" />
       <workItem from="1743431959249" duration="205000" />
       <workItem from="1744123860130" duration="87000" />
-      <workItem from="1744123954592" duration="338000" />
+      <workItem from="1744123954592" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал модели, прогнал миграции, начал делать роутеры">
       <option name="closed" value="true" />
