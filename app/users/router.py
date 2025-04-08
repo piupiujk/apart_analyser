@@ -18,6 +18,7 @@ router.include_router(auth_router)
 async def is_user_exists(tg_id: int):
     existing_user = await UserRepository.find_by_tg_id(tg_id=tg_id)
     return {"result": existing_user is not None}
+
 @auth_router.post('/register')
 async def register_user(user_data: SUserRegister):
     existing_user = await UserRepository.find_one_or_none(email=user_data.email)
