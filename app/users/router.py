@@ -5,6 +5,7 @@ from app.users.repository import UserRepository
 from app.users.schemas import SUserRegister
 
 router = APIRouter(
+    prefix="/user",
     tags=["Пользователи"]
 )
 auth_router = APIRouter(
