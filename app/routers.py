@@ -6,7 +6,7 @@ from fastapi.exceptions import HTTPException
 from app.users.router import router as user_router
 from app.apartments.router import router as apartment_router
 
-router = APIRouter(tags=["API"], prefix="/api")
+router = APIRouter(prefix="/api")
 
 router.include_router(apartment_router)
 router.include_router(user_router)
