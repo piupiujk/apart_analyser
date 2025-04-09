@@ -8,11 +8,11 @@ router = APIRouter(
     prefix="/user",
     tags=["Пользователи"]
 )
-auth_router = APIRouter(
-    prefix="/auth",
-    tags=["Auth"]
-)
-router.include_router(auth_router)
+# auth_router = APIRouter(
+#     prefix="/auth",
+#     tags=["Auth"]
+# )
+# router.include_router(auth_router)
 
 @router.get('/is_user_exists')
 async def is_user_exists(
@@ -28,7 +28,7 @@ async def is_user_exists(
 
     return {"result": existing_user is not None}
 
-@auth_router.post('/register')
+@router.post('/register')
 async def register_user(user_data: SUserRegister):
     existing_user = await UserRepository.find_one_or_none(email=user_data.email)
     if existing_user:
@@ -38,7 +38,7 @@ async def register_user(user_data: SUserRegister):
     hashed_password = get_password_hash(user_data.password)
     await UserRepository.add_user(email=user_data.email, password=hashed_password)
 
-@auth_router.post('/login')
+@router.post('/login')
 async def login_user(response: Response, user_data: SUserRegister):
     user = await authenticate_user(user_data.email, user_data.password)
     if not user:
