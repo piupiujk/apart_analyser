@@ -29,8 +29,8 @@ class UserRepository:
             return result.scalar_one_or_none()
 
     @classmethod
-    async def add_user(cls, email: EmailStr, password: str):
+    async def add_user(cls, email: EmailStr, password: str | None = None, tg_id: int | None = None):
         async with async_session() as session:
-            query = insert(Users).values(email=email, password=password)
+            query = insert(Users).values(email=email, password=password, tg_id=tg_id)
             await session.execute(query)
             await session.commit()
